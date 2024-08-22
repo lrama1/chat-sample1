@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import Chat from './Chat';
+import Chat from '../Chat';
 
 test('initially displays the chat icon', () => {
   render(<Chat />);
